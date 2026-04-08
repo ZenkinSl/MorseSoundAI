@@ -47,6 +47,39 @@ public class MorseConverter {
         MORSE.put('.', ".-.-");
         MORSE.put(',', "--..--");
         MORSE.put('?', "..--..");
+        MORSE.put('а', ".-");
+        MORSE.put('б', "-...");
+        MORSE.put('в', ".--");
+        MORSE.put('г', "--.");
+        MORSE.put('д', "-..");
+        MORSE.put('е', ".");
+        MORSE.put('ё', ".");
+        MORSE.put('ж', "...-");
+        MORSE.put('з', "--..");
+        MORSE.put('и', "..");
+        MORSE.put('й', ".---");
+        MORSE.put('к', "-.-");
+        MORSE.put('л', ".-..");
+        MORSE.put('м', "--");
+        MORSE.put('н', "-.");
+        MORSE.put('о', "---");
+        MORSE.put('п', ".--.");
+        MORSE.put('р', ".-.");
+        MORSE.put('с', "...");
+        MORSE.put('т', "-");
+        MORSE.put('у', "..-");
+        MORSE.put('ф', "..-.");
+        MORSE.put('х', "....");
+        MORSE.put('ц', "-.-.");
+        MORSE.put('ч', "---.");
+        MORSE.put('ш', "----");
+        MORSE.put('щ', "--.-");
+        MORSE.put('ъ', "--.--");
+        MORSE.put('ы', "-.--");
+        MORSE.put('ь', "-..-");
+        MORSE.put('э', "..-..");
+        MORSE.put('ю', "..--");
+        MORSE.put('я', ".-.-");
     }
 
     public static String toMorse(String text) {
